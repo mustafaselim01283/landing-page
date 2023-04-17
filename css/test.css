@@ -1,0 +1,331 @@
+:root{
+    --min-color:#0078ff
+}
+/* nav */
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    transition: all .5s;
+
+}
+.nav-link:hover::after{
+    width: 40%;
+
+}
+.nav-link:focus::after{
+    width: 40%;
+}
+/* home */
+#home{
+    background-image: url(../DevFoli-Img/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+
+}
+
+
+
+#home h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+
+}
+#home h2{
+    font-size: 2.5rem;
+    font-weight:600;
+    color: #fff;
+    
+    
+}
+#home h2::after{
+    content: "";
+    animation: anmi-litter 10s infinite;
+    animation-timing-function:ease-in;
+    
+}
+@keyframes anmi-litter{
+    0%{content:"|";}
+    1%{content:"C|";}
+    2%{content:"CE|";}
+    3%{content:"CEO |";}
+    4%{content:"CEO D|";}
+    5%{content:"CEO De|";}
+    6%{content:"CEO Dev|";}
+    7%{content:"CEO DevF|";}
+    8%{content:"CEO DevFo|";}
+    9%{content:"CEO DevFol|";}
+    10%{content:"CEO DevFoli|";}
+    11%{content:"CEO DevFolio|";}
+    12%{content:"CEO DevFolio|";}
+    13%{content:"CEO DevFolio|";}
+    14%{content:"CEO DevFoli|";}
+    15%{content:"CEO DevFol|";}
+    16%{content:"CEO DevFo|";}
+    17%{content:"CEO DevF|";}
+    18%{content:"CEO Dev|";}
+    19%{content:"CEO De|";}
+    20%{content:"CEO|";}
+    21%{content:"CE|";}
+    22%{content:"C|";}
+    23%{content:"W|";}
+    24%{content:"We|";}
+    25%{content:"Web |";}
+    26%{content:"Web D|";}
+    27%{content:"Web De|";}
+    28%{content:"Web Dev";}
+    29%{content:"Web Deve";}
+    30%{content:"Web Devel";}
+    31%{content:"Web Develo|";}
+    32%{content:"Web Develop|";}
+    33%{content:"Web Develope|";}
+    34%{content:"Web Developer|";}
+    35%{content:"Web Developer|";}
+    36%{content:"Web Developer|";}
+    37%{content:"Web Develope|";}
+    38%{content:"Web Develop|";}
+    39%{content:"Web Develo|";}
+    40%{content:"Web Devel|";}
+    41%{content:"Web Deve|";}
+    42%{content:"Web Dev|";}
+    43%{content:"Web De|";}
+    44%{content:"Web Des|";}
+    45%{content:"Web Desi|";}
+    46%{content:"Web Desig|";}
+    47%{content:"Web Design|";}
+    48%{content:"Web Designe|";}
+    49%{content:"Web Designer|";}
+    50%{content:"Web Designer|";}
+    51%{content:"Web Designer|";}
+   52%{content:"Web Designe|";}
+   53%{content:"Web Design|";}
+   54%{content:"Web Desig|";}
+   55%{content:"Web Desi|";}
+   56%{content:"Web Des|";}
+   57%{content:"Web De|";}
+   58%{content:"Web D|";}
+   59%{content:"Web|";}
+   60%{content:"We|";}
+   61%{content:"W|";}
+   62%{content:"F|";}
+   63%{content:"Fr|";}
+   64%{content:"Fro|";}
+   65%{content:"Fron|";}
+   66%{content:"Front|";}
+   67%{content:"Fronte|";}
+   68%{content:"Frontend |";}
+   69%{content:"Frontend D|";}
+   70%{content:"Frontend De|";}
+   71%{content:"Frontend Dev|";}
+   72%{content:"Frontend Deve|";}
+   73%{content:"Frontend Devel|";}
+   74%{content:"Frontend Develo|";}
+   75%{content:"Frontend Develop|";}
+   76%{content:"Frontend Develope|";}
+   77%{content:"Frontend Developer|";}
+   78%{content:"Frontend Developer|";}
+   79%{content:"Frontend Developer|";}
+   80%{content:"Frontend Develope|";}
+   81%{content:"Frontend Develop|";}
+   82%{content:"Frontend Develo|";}
+   83%{content:"Frontend Deve|";}
+   84%{content:"Frontend De|";}
+   85%{content:"Frontend|";}
+   86%{content:"Fronte|";}
+   87%{content:"Fron|";}
+   88%{content:"Fr|";}
+   89%{content:"Gr|";}
+   90%{content:"Grag |";}
+   91%{content:"Gragh|";}
+   92%{content:"Graghic |";}
+   93%{content:"Graghic Des|";}
+   94%{content:"Graghic Designer|";}
+   95%{content:"Graghic Designer|";}
+   96%{content:"Graghic Designer|";}
+   97%{content:"Graghic des|";}
+   98%{content:"Graghic|";}
+   99%{content:"Gragh|";}
+   100%{content:"G|";}
+
+
+}
+/* about */
+.about-info ul{
+
+    list-style: none;
+}
+.about-info ul li{
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height:2.5rem;
+}
+.about-info span{
+    font-size: 1rem;
+}
+
+.progress, .progress-stacked{
+    height: .7rem;
+}
+.dec{
+position: relative;
+margin-bottom: 3rem;
+}
+.dec::after{
+    content: "";
+    width: 20%;
+    height:3px;
+    background-color:var(--min-color) ;
+    position: absolute;
+    left: 0;
+    bottom:-25%;
+   
+}
+/* servicess */
+
+.section-head h2{
+    font-size: 3rem;
+}
+.section-head p{
+    margin-bottom: 5rem;
+}
+.section-head p::after{
+    content: "";
+    width: 4%;
+    height: 5px;
+    background-color: var(--min-color);
+    position: absolute;
+    left: 50%;
+    bottom: -70%;
+    transform: translate(-50%);
+}
+
+#icon{
+    width: 7rem;
+    height: 7rem;
+    border: .7rem var(--min-color) solid;
+transition: all .5s;
+}
+.box-content:hover #icon{
+    border: .7rem rgb(207, 229, 244) solid;
+    background-color: var(--min-color);
+}
+.box-content:hover i{
+    color: white;
+}
+/* section icon */
+.sec-icon{
+    background-image: url(../DevFoli-Img/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sec-icon-icon{
+    width: 5rem;
+    height: 5rem;
+    border: .7rem rgba(255, 255, 255, 0.634) solid;
+transition: all .5s;
+}
+.sec-part{
+    color: #fff;
+}
+.work-cont p{
+    font-size: .8rem;
+}
+.port-cont img{
+    transition: all 1s;
+}
+.port-cont:hover img{
+    transform: scale(1.3);
+}
+.slider{
+    background-image: url(../DevFoli-Img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slider-img img
+{
+    width: 10rem;
+}
+.card .rounded-1{
+    width: 80px;
+    padding: 5px 10px;
+    font-size: .7rem;
+    background-color: var(--min-color);
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    
+    
+}
+.card-footer img{
+width: 2rem;
+}
+.card a{
+    transition: all .5s !important;
+}
+.card a:hover{
+    color: var(--min-color) !important;
+}
+.footer-sec{
+    background-image: url(../DevFoli-Img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.send{
+    width: 42%;
+    border: 4px white solid;
+    transition: all .5s;
+
+}
+.send:hover{
+    border: 4px rgb(159, 220, 244) solid;
+    background-color: rgb(0, 99, 198) !important;
+}
+.foot-icon{
+    width: 3rem;
+    height: 3rem;
+    border: 4px var(--min-color) solid;
+    transition: all .5s;
+}
+.foot-icon:hover{
+    background-color: var(--min-color);
+    border: 4px rgb(159, 220, 244) solid;
+    color: white;
+}
+
+#highlightbox{
+    background-color: rgba(0, 0, 0, 0.5);
+     position: fixed;
+      top: 0; bottom: 0;right: 0;left: 0;
+}
+#lightbox{
+    background-image: url(../DevFoli-Img/post-2.jpg);
+    background-size: cover; 
+    background-position: center center;
+    height: 500px;
+    width: 50%;
+}
+#close{
+    right: 0;
+}
+#close,#pre,#next{
+    cursor: pointer;
+}
+nav {
+    transition: all 1s;
+    
+}
+#arrow{
+    display: none;
+}
